@@ -91,7 +91,6 @@ a:active {
               #ffa949 url('../img/grandcanyon1.jpg') no-repeat center;
   background-size: cover;
   color: white;
-  overflow-y: none;
 }
 
 .title {
@@ -244,7 +243,7 @@ a:active {
   padding: 20px 0;
   }
 }
-/*Media query for phone*/
+/*Media query for iphone 6/7/8 */
 
 @media (max-width: 375px) {
 
@@ -274,5 +273,36 @@ a:active {
   float: none;
   width: 100%;
   }
+}
 
+/*Media query for iphone 6/7/8 Plus */
+
+@media (max-width: 414px) {
+
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+
+  .title {
+    font-size: 1.3rem;
+    border: none;
+  }
+  h1 {
+   font-size: 4rem;
+   line-height: 1.1;
+}
+.arrow {
+  display: none;
+}
+.intro {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.resorts,
+.tips {
+  float: none;
+  width: 100%;
+  }
 }
