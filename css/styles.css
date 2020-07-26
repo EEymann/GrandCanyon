@@ -45,6 +45,7 @@ h3 {
   color: #48525c;
   line-height: 1.2;
   margin-bottom: 1.7em; /*34px*/
+  text-align: center;
 }
 
 img {
@@ -53,10 +54,6 @@ img {
   border-radius: 10px;
 }
 
-ul,
-ol {
-  margin: 30px 0;
-}
 
 li {
   margin-bottom: 10px;
@@ -111,6 +108,10 @@ a:active {
 .main-header,
 .main-footer {
   text-align: center;
+}
+
+.primary-content p {
+  text-align: left;
 }
 
 .primary-content {
@@ -175,6 +176,7 @@ a:active {
 .resorts,
 .tips {
   width: 46.5%;
+
 }
 
 .tips {
@@ -184,6 +186,28 @@ a:active {
 .resorts {
   float: right;
 }
+
+/*aligned images */
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* list items and paragraphs aligned */
+/* ul,
+ol {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.tips p,
+.resorts p {
+  text-align: left;
+} */
+
+
 
 /* Float Clearfix */
 
