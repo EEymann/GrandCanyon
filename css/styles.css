@@ -1,3 +1,12 @@
+/* Colors Used: https://colorhunt.co/palette/219688 */
+/* #16697a  = Dark Turquoise */
+/* #db6400 = Dark Orange */
+/* #ffa62b = Light Orange */
+/* #f8f1f1 = Light Pink */
+/* #707070 = Dark grey text */
+
+
+
 /* Web Fonts -------------------- */
 
 @font-face {
@@ -14,7 +23,7 @@
 }
 
 body {
-  color: #878787;
+  color: #707070;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -59,40 +68,23 @@ li {
   margin-bottom: 10px;
 }
 
-/* Pseudo-classes */
-
-a:link {
-  color: rgb(255, 169, 73);
-  text-decoration: none;
-}
-
-a:visited {
-  color: lightblue;
-}
-
-a:hover {
-  color: rgba(255, 169, 73, .4);
-}
-
-a:active {
-  color: lightcoral;
-}
 
 /* Main Styles */
 
 .main-header {
   padding-top: 170px;
   height: 850px;
-  background: linear-gradient(#ffa949, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-              #ffa949 url('../img/grandcanyon1.jpg') no-repeat center;
+  background: linear-gradient(#ffa62b, transparent 50%),
+              linear-gradient(0deg, #f8f1f1, transparent),
+              #ffa62b url('../img/grand-canyon1.jpg') no-repeat center;
   background-size: cover;
-  color: white;
+  color: #fff;
 }
 
 .title {
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: .065em;
+  text-shadow: 0 2px 2px rgba(0,0,0,.8);
   font-weight: 200;
   border-bottom: 2px solid;
   padding-bottom: 10px;
@@ -101,7 +93,7 @@ a:active {
 .intro {
   font-size: 1.25em; /* 20px/16px */
   line-height: 1.6;
-  color: initial;
+  /* color: initial; */
 }
 
 .primary-content,
@@ -136,7 +128,7 @@ a:active {
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+  border-bottom: 10px solid  #ffa62b;
 }
 
 .t-border {
@@ -158,12 +150,13 @@ a:active {
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #ffa949;
+  border-top: 10px solid #ffa62b;
   margin: 105px 0 60px;
-  background: #434a52 url('../img/desertsheep.jpg') no-repeat center;
+  background: #434a52 url('../img/desert-big-horn.jpg') no-repeat center;
   background-size: cover;
-  box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
+  box-shadow: inset 25em 15em 10em rgba(0,0,0,.8);
   border-radius: 10px;
+  background-size: cover;
 }
 
 .arrow {
@@ -217,8 +210,28 @@ ol {
   clear: both;
 }
 
+/* Link Pseudo-classes */
+
+a:link {
+  color: #db6400;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #16697a;
+}
+
+a:hover {
+  color: #ffa62b;
+}
+
+a:active {
+  color: #db6400;
+}
+
 /* Media Queries */
 
+/* Media query for popular desktop screen size */
 @media (max-width: 1024px) {
   .primary-content,
   .secondary-content {
@@ -230,7 +243,7 @@ ol {
   }
 }
 
-
+/* Media query for ipad */
 @media (max-width: 768px) {
   .primary-content,
   .secondary-content {
