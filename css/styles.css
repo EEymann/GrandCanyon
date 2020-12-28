@@ -260,6 +260,7 @@ a:active {
   .title {
     font-size: 1.3rem;
     border: none;
+    
   }
   h1 {
    font-size: 5rem;
@@ -278,37 +279,6 @@ a:active {
   }
 .main-footer {
   padding: 20px 0;
-  }
-}
-/*Media query for iphone 6/7/8 */
-
-@media (max-width: 375px) {
-
-  .main-header {
-    max-height: 380px;
-    /* padding: 50px 25px 0; */
-  }
-
-  .title {
-    font-size: 1.3rem;
-    border: none;
-  }
-  h1 {
-   font-size: 4rem;
-   line-height: 1;
-}
-.arrow {
-  display: none;
-}
-.intro {
-  font-size: 1rem;
-  text-align: left;
-}
-
-.resorts,
-.tips {
-  float: none;
-  width: 100%;
   }
 }
 
@@ -341,5 +311,42 @@ a:active {
 .tips {
   float: none;
   width: 100%;
+  }
+}
+
+
+/*Media query for iphone 6/7/8 */
+
+@media (max-width: 375px) {
+
+  .main-header {
+    max-height: 380px;
+    padding: 40px 25px 0;
+  }
+
+  .title {
+    font-size: 1.3rem;
+    border: none;
+  }
+  h1 {
+   font-size: 4rem;
+   line-height: 1;
+}
+.arrow {
+  display: none;
+}
+.intro {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.resorts,
+.tips {
+  float: none;
+  width: 100%;
+  }
+
+  .wildlife {
+    box-shadow: inset 15em 2em 10em rgba(0,0,0,.8);
   }
 }
