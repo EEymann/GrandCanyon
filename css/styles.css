@@ -28,6 +28,14 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Google translate */
+#google_translate_element {
+  float: right;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
 h1,
 h2 {
   font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
@@ -254,7 +262,7 @@ a:active {
 
   .main-header {
     max-height: 380px;
-    padding: 50px 25px 0;
+    padding: 70px 25px 0;
   }
 
   .title {
@@ -287,8 +295,9 @@ a:active {
 @media (max-width: 414px) {
 
   .main-header {
-    max-height: 380px;
-    padding: 50px 25px 0;
+    max-height: 480px;
+    padding: 75px 25px 0;
+    
   }
 
   .title {
@@ -320,8 +329,8 @@ a:active {
 @media (max-width: 375px) {
 
   .main-header {
-    max-height: 380px;
-    padding: 40px 25px 0;
+    max-height: 470px;
+    padding: 70px 25px 0;
   }
 
   .title {
@@ -350,3 +359,6 @@ a:active {
     box-shadow: inset 15em 2em 10em rgba(0,0,0,.8);
   }
 }
+
+
+
