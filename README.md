@@ -28,7 +28,7 @@ _Media Queries_
 * _Open the index.html file_
 
 ## View the website live
-* _https://eeymann.github.io/GrandCanyon/_
+* _[TheGrandCanyon](https://eeymann.github.io/GrandCanyon/)_
 
 
 ## Known Bugs
@@ -44,8 +44,8 @@ _For questions or concerns email Liz at elizabeth.eymann@gmail.com_
 _This project was created primarily using HTML and CSS. Javascript was used to implement Google Translate._
 
 ## Acknowledgements:
-* _Thanks [TeamTreeHouse](https://teamtreehouse.com/) for the skills to build this project_
-*_Thanks [Pixabay](https://pixabay.com/) for the beautiful free photos used in this project_
+* _Thanks [TeamTreeHouse](https://teamtreehouse.com/) for the explaination of the skills needed to build this project_
+* _Thanks [Pixabay](https://pixabay.com/) for the beautiful free photos used in this project_
 
 ### License
 
