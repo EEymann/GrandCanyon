@@ -44,7 +44,7 @@ _For questions or concerns email Liz at elizabeth.eymann@gmail.com_
 _This project was created primarily using HTML and CSS. Javascript was used to implement Google Translate._
 
 ## Acknowledgements:
-* _Thanks [TeamTreeHouse](https://teamtreehouse.com/) for the explaination of the skills needed to build this project_
+* _Thanks [TeamTreeHouse](https://teamtreehouse.com/) for the explanation of the skills needed to build this project_
 * _Thanks [Pixabay](https://pixabay.com/) for the beautiful free photos used in this project_
 
 ### License
