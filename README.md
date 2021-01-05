@@ -5,7 +5,12 @@
 
 ## Description
 
-_I created this website to showcase and practice my fundamental HTML and CSS skills._
+_I built this responsive webpage travel guide of the Grand Canyon National Park to practice and showcase my fundamental HTML and CSS skills. Important concepts implemented in this project include:_
+_Basic Selectors_
+_Common Values and Units_
+_The Box Model_
+_Media Queries_
+
 
 ## Specifications:
 
@@ -37,6 +42,10 @@ _For questions or concerns email Liz at elizabeth.eymann@gmail.com_
 ## Technologies Used
 
 _This project was created primarily using HTML and CSS. Javascript was used to implement Google Translate._
+
+## Acknowledgements:
+* _Thanks [TeamTreeHouse](https://teamtreehouse.com/) for the skills to build this project_
+*_Thanks [Pixabay](https://pixabay.com/) for the beautiful free photos used in this project_
 
 ### License
 
