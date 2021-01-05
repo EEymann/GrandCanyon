@@ -47,8 +47,4 @@ _This project was created primarily using HTML and CSS. Javascript was used to i
 * _Thanks [TeamTreeHouse](https://teamtreehouse.com/) for the explanation of the skills needed to build this project_
 * _Thanks [Pixabay](https://pixabay.com/) for the beautiful free photos used in this project_
 
-### License
 
-*This software is licensed under the MIT license.*
-
-Copyright (c) 2021 **_Elizabeth Eymann_**
