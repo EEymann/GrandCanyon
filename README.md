@@ -35,10 +35,6 @@ _Media Queries_
 
 _There are no known bugs at this time._
 
-## Support and contact details
-
-_For questions or concerns email Liz at elizabeth.eymann@gmail.com_
-
 ## Technologies Used
 
 _This project was created primarily using HTML and CSS. Javascript was used to implement Google Translate._
